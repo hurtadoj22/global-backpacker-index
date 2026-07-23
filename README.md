@@ -76,12 +76,14 @@ The Power BI report was designed using a strict information hierarchy spread acr
 
 ### Page 2: Country Breakdown (Drillthrough Experience)
 * **Targeted Deep-Dive:** Activated right-click Drillthrough functionality bound to the Country field.
-* **Paired Benchmark Bar Charts:** Placed country-specific metrics directly alongside global average companion bars (Forest Green vs. Muted Gray) so users instantly recognize if a country is priced above or below the world baseline.
+* **Paired Benchmark Bar Charts:** Placed country-specific metrics directly alongside global average companion bars (Colored bars vs. Muted Gray) so users instantly recognize if a country is priced above or below the world baseline.
 * **Seamless Navigation:** Integrated an in-banner Back Button (`<--`) returning the user to Page 1.
 
 ---
 
 ## 🎯 Key Analytical Insights
 
-* **The "Sweet Spot" Quadrant:** Countries in Southeast Asia (e.g., Thailand, Vietnam) consistently fall into Quadrant 2—offering significantly lower daily expenses (Cost Index < 35) while maintaining above-average safety rankings.
+* **The "Sweet Spot" Quadrant:** Out of 83 analyzed destinations, only 16 countries sit in Quadrant 2 (High Safety ≥ 60, Low Cost < 45.89). Top performers include Taiwan (Safety: 82.8, Cost: 45.2), Georgia (Safety: 73.9, Cost: 33.4), Poland (Safety: 70.9, Cost: 40.8), and Thailand (Safety: 62.2, Cost: 34.1), offering exceptional peace-of-mind at a fraction of global overhead.
 * **Expense Discrepancy Patterns:** In several European destinations, the Restaurant Price Index drops below the Groceries Index, indicating street dining and eating out can be more cost-effective for travelers than traditional grocery shopping.
+* **Asian Street Dining Discount:** Across East and Southeast Asia, the Restaurant Price Index is 50%–62% lower than the Groceries Index (e.g., Sri Lanka ratio 0.38, Taiwan 0.38, Indonesia 0.40, Vietnam 0.44, Thailand 0.45). In these markets, eating out at local food stalls and family eateries is more cost-effective than self-catering in hostel kitchens.
+* **The 28x Rent Index Divide:** While general living expenses show a 5.4x spread between the most expensive country (Switzerland at 101.1) and the cheapest (Pakistan at 18.8), housing exhibits a massive 28x divergence—ranging from Singapore (67.2, where rent makes up 87.6% of overall living costs) down to Bangladesh (2.4). This validates separating housing from daily living expenses on Page 2.
